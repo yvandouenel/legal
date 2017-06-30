@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the feature smartphone Legal feature.
+ */
+
+include_once 'feature_smartphone_legal.features.inc';

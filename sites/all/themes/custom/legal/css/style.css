@@ -1,0 +1,307 @@
+
+/* Général ********************************************************************/
+body{
+  font-family: arial;
+}
+body.pro{
+  border: 1px solid #ef8c0c;
+}
+#main_content{
+  clear: both;
+}
+a{
+  color: #236f8b;
+}
+p{
+  margin: 20px 0;
+}
+strong{
+  font-weight: bold;
+}
+.region-content div > ul > li{
+  display: block;
+  padding-left: 25px;
+  background: url(../images/icons/coche.png) no-repeat 5px 5px;
+}
+.region-content div > ul > li > ul > li{
+  display: block;
+  padding-left: 20px;
+  background: url(../images/icons/puce.png) no-repeat 5px 7px;
+}
+em{
+  font-style: italic;
+}
+#block-system-main{
+  clear: both;
+  line-height: 1.6em;
+  text-align: justify; 
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+.group-left > div{
+  padding-right: 5%;
+}
+ul li.leaf {
+  list-style: none;
+}
+h2#page-title{
+  clear: both;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 2em;
+  margin: 20px 0 10px 0;
+  text-transform: uppercase;
+}
+h3{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1.6em;
+  color: #8b2349;
+  margin: 15px 0 10px 0;
+}
+h3.project-sub-title{
+  font-family: 'Quattrocento Sans', sans-serif;
+  color: #8b7823;
+}
+/* Menus hauts ****************************************************************/
+#top_bar{
+  background-color: #3b3b3b;
+  min-height: 41px;
+}
+#block-menu-menu-top{
+  float: right;
+}
+#block-menu-menu-top ul.menu{
+  margin-left: 440px;
+}
+#block-menu-menu-top ul.menu a{
+  color: #7abed6;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  display: block;
+  padding: 10px 5px;
+}
+/* Moteur de recherche ********************************************************/
+#search-block-form{
+  padding-top: 10px;
+  float: right;
+}
+/* logos **********************************************************************/
+#eric_legal{
+  position: relative;
+  left: -45px;
+}
+#link_legal,#link_pdfm{
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size:  0.9em;
+  display: block;
+  float: left;
+}
+#link_legal{
+  color: #236f8b;
+  margin-right: 5px;
+}
+#link_pdfm{
+  color: #ef8c0c; 
+}
+/* Menus principaux ***********************************************************/
+#main_menu{
+  clear: both;
+}
+#superfish-1{
+  margin-top: 30px;
+}
+#superfish-1 li{
+  padding: 0;
+  margin: 0;
+}
+#superfish-1 > li > a{
+  background-color: #e6edf2;
+  padding: 10px;
+  color: #566174;
+  border-right: 1px solid white;
+}
+#superfish-1 > li.active-trail> a{
+  background-color: #236f8b;
+  color: white;
+}
+#superfish-1 li.menuparent > a{
+  text-decoration: none;
+  display: block;
+  text-decoration: none;
+  padding-right: 20px;
+}
+.sf-sub-indicator{
+  right: 0.4em;
+}
+#superfish-1 > li  a {
+  border: 0;
+  text-decoration: none;
+}
+/* zoom slideshow *************************************************************/
+.view-display-id-block_1{
+  position: relative;
+}
+.group-all-home-zoom .field-name-zoom-sur{
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
+.group-all-home-zoom .field-name-over-zoom-small{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  max-width: 19%;
+}
+.group-all-home-zoom .field-name-field-scald-image{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  max-width: 19%;
+  
+}
+h2.title2_zoom_home{
+  font-family: "proxima-nova-sc-osf-ext-cond",sans-serif;
+  font-size:  3em;
+  color: white;
+}
+
+body.front .view-display-id-block_1 h3.h3-event a{
+  font-family: 'Open Sans', sans-serif;
+  font-size:  1.5em;
+  color: #7abed6;
+  text-decoration: none;
+}
+.group-title-text{
+  position: absolute;
+  top: 46%;
+  left: 20%;
+  width: 30%;
+  padding : 15px 1%;
+  background-color: #070801;
+  opacity: 0.9;
+}
+
+body.front .block-views .group-title-text.field-name-body{
+  color: #444a52;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+.views-slideshow-controls-top{
+  position: absolute;
+  top: 30px;
+  left: 20%;
+  z-index: 10;
+}
+#views_slideshow_controls_text_previous_evenements-block_1 a,
+#views_slideshow_controls_text_next_evenements-block_1 a{
+  display: block;
+  text-indent: -6000px;
+  background: url(../images/icons/arrow-left.png) no-repeat 0 0;
+  width: 57px;
+  height: 57px;
+  float: left;
+}
+#views_slideshow_controls_text_next_evenements-block_1 a{
+  background: url(../images/icons/arrow-right.png) no-repeat 0 0;
+  margin-left: 100px;
+}
+#views_slideshow_controls_text_previous_evenements-block_1 a{
+  background: url(../images/icons/arrow-left.png) no-repeat 0 0;
+}
+#views_slideshow_controls_text_pause_evenements-block_1{
+  display: none;
+}
+#views_slideshow_slide_counter_evenements-block_1{
+  position: absolute;
+  left: 30%;
+  top: 30%;
+  background-color: white;
+  display: block;
+  padding: 5px 20px;
+  opacity: 0.6;
+  border-radius: 3px;
+}
+
+/* actualités home*************************************************************/
+body.front .region-home-col1 .block-views h2{
+  color: #91979f;
+  font-size: 2em;
+  paddin-left: 65px;
+  line-height: 54px;
+  background: url(../images/icons/flamme.png) no-repeat 0 50%;
+  padding-left: 65px;
+  margin: 30px 0;
+}
+body.front .region-home-col1 .block-views .views-row{
+  float: left;
+  width : 47.916666666666666666666666666667%;
+  margin-right: 0 1.041666666666666666666666666667%; /* 10/960 */
+}
+body.front .region-home-col1:after{
+  content: '';
+  display: block;
+  clear: both;
+}
+.group-title-img{
+  position: relative;
+}
+body.front .view-display-id-block_2 h3.h3-event{
+  position: absolute;
+  bottom: 3px;
+  min-height: 60px;
+  border-left: 5px solid #236f8b;
+  background: #58a8c9 url(../images/bg/bg_event.jpg) no-repeat 0 50%;
+  width: 95.9%;
+  opacity: 0.9;
+}
+body.front .view-display-id-block_2 h3.h3-event a{
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  padding: 5px 0 0 22px;
+  color: white;
+  font-size: 1.3em;
+  text-decoration: none;
+  text-transform: uppercase;
+  min-height: 55px;
+}
+body.front .block-views .field-name-body{
+  color: #AAAAAA;
+  font-family: 'Open Sans', sans-serif;
+}
+/* Project ********************************************************************/
+.node-projet .field-name-field-galerie-photo{
+  float: right;
+  margin: 0 0 10px 40px;
+}
+h3.project-sub-title{
+  clear: both;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+/* footer *********************************************************************/
+#main_footer{
+  background-color: #0A0B03;
+  min-height: 100px;
+  clear: both;
+}
+#main_footer #block-block-1{
+  color: white;
+}
+#main_footer #block-block-1 ul{
+  margin-top : 10px;
+  font-family: 'Titillium Web', sans-serif;
+}
+/* scald ************************************************************************/
+
+
+.field-name-scald-authors{
+  position: absolute;
+  bottom: 5px;
+  margin-left: 10px;
+}
+.field-name-scald-authors .field-label{
+  display: none;
+}
+

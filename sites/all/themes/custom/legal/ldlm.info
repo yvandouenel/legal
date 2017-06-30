@@ -1,0 +1,25 @@
+name = legal
+description = A custom template for Eric Le Gal
+core = 7.x
+
+stylesheets[all][] = css/reset.css 
+stylesheets[all][] = css/grid.css 
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/media.css
+
+breakpoints[tv] = (min-width: 1280px)
+breakpoints[wide] = (min-width: 960px)
+breakpoints[narrow] = (min-width: 740px)
+breakpoints[mobile] = (min-width: 0px)
+ 
+regions[top_bar] = Top bar
+regions[user_menu] = User Menu
+regions[main_menu] = Main Menu
+regions[secondary_menu] = Secondary Menu
+regions[above_content] = Above Content
+regions[content] = Content
+regions[home_col1] = Home Col 1
+regions[home_col2] = Home Col 2
+regions[home_col3] = Home Col 3
+regions[footer_col1] = Footer col1
+regions[footer_col2] = Footer col2

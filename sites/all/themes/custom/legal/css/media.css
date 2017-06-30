@@ -1,0 +1,99 @@
+
+@media screen and (min-width:1583px){
+  .container{
+    width: 1200px;
+    margin: auto;
+  }
+  .big-container{
+    width: 1583px;
+    margin: auto;
+  }
+}
+@media screen and (max-width:1583px) and (min-width:1280px){
+  .container{
+    width: 1200px;
+    margin: auto;
+  }
+  view-display-id-block_1{
+    width: 100%;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width:1280px){
+  .container{
+    width: 100%;
+  }
+  view-display-id-block_1{
+    width: 100%;
+    overflow: hidden;
+  }
+  .group-all-home-zoom .field-name-zoom-sur, .group-all-home-zoom .field-name-title,body.front .block-views .group-all-home-zoom .field-name-body{
+    left: 2%;
+  }
+  .group-all-home-zoom .field-name-over-zoom-small, .group-all-home-zoom .field-name-field-scald-image{
+    display: none;
+  }
+  .field-name-field-images picture{
+    position: relative;
+    left: -23.5%;
+  }
+  .field-name-field-images picture img{
+    max-width: 123.5%;
+  }
+}
+@media screen and (max-width:940px){
+  #block-menu-menu-top ul.menu{
+    margin-left: 10px;
+  }
+  body.front .block-views .group-all-home-zoom .field-name-body{
+    font-size: 0.6em;
+  }
+  body.front .view-display-id-block_1 h3.h3-event a{
+    font-family: 'Open Sans', sans-serif;
+    font-size:  1em;
+    color: #7abed6;
+    text-decoration: none;
+  }
+  .group-title-text {
+    position: static;
+    width: 96%;
+    padding: 15px 2%;
+    background-color: #070801;
+    opacity: 0.9;
+    margin-top: -5px;
+  }
+  body.front .region-home-col1 .block-views .views-row{
+    float: none;
+    width: 100%;
+    margin: 5px 0;
+  }
+  #main_footer #block-block-1 {
+    color: white;
+    padding-left: 5px;
+  }
+  body.front .region-home-col1 .block-views h2{
+    margin-top: 0;
+  }
+  #eric_legal {
+    left: 0;
+  }
+  header#head_band > div{
+    height: 10px !important;
+    padding: 10px 0;
+    background-color: #000000;
+  }
+  .responsive-menus.responsified span.toggler {
+    padding: 5px;
+    width: 50%;
+    margin: -1px auto 3px auto;
+  }
+  #link-coopernet{
+    display: none;
+  }
+}
+@media screen and (max-width:1200px) and (min-width: 940px){
+  .group-title-text {
+    left: 10%;
+    width: 80%;
+  }
+}
